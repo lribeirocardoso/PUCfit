@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542639741447",
+    "project_id": "projeto-pucfit-54e28",
+    "storage_bucket": "projeto-pucfit-54e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542639741447:android:590c89a62058c47a4e68a2",
+        "android_client_info": {
+          "package_name": "com.projeto.pucfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542639741447-rhuh8dhe590mjjot31eur2k8jrtcmgj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA1VbCnUP19_n2HWmTUSe3YPzZBYuu_O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542639741447-rhuh8dhe590mjjot31eur2k8jrtcmgj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

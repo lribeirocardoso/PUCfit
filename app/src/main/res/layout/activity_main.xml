@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".view.MainActivity">
+
+        <TextView
+            android:id="@+id/logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:text="PUC"
+            android:textColor="@color/black"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_fitness"
+            app:layout_constraintStart_toStartOf="@+id/logo1"
+            app:layout_constraintTop_toBottomOf="@+id/logo1" />
+
+        <TextView
+            android:id="@+id/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/logo3"
+            app:layout_constraintEnd_toEndOf="@+id/logo1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/logo3"
+            app:layout_constraintTop_toBottomOf="@+id/logo1"
+            app:layout_constraintVertical_bias="0.538" />
+
+        <View
+            android:id="@+id/containerComponents"
+            style="@style/ContainerComponents"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo3"
+            app:layout_constraintVertical_bias="0.354" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btarea_aluno"
+            style="@style/Button"
+            android:text="@string/btarea_aluno"
+            app:layout_constraintBottom_toBottomOf="@+id/containerComponents"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btarea_professor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btarea_professor"
+            style="@style/Button"
+            android:layout_marginTop="36dp"
+            android:text="@string/btarea_empregado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/containerComponents" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PUCfit</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="title_activity_teste">teste</string>
+    <string name="btarea_aluno">Área do Aluno</string>
+    <string name="btarea_empregado">Área do Empregado</string>
+    <string name="cadastrar_aluno">Cadastrar alunos</string>
+    <string name="search_button">Firestore Search</string>
+    <string name="lista_aulas">Lista de aulas</string>
+
+    <string name="header">Cadastre um novo(a) aluno(a) à sua lista.</string>
+    <string name="first_name_label">Nome:</string>
+    <string name="last_name_label">Sobrenome:</string>
+    <string name="person_id_label">ID:</string>
+    <string name="created_on">Criado em %1$s</string>
+    <string-array name="nomes">
+        <item>Adriano</item> <item>Alexandre</item> <item>Anderson</item> <item>André</item> <item>Antônio</item>
+        <item>Aída</item> <item>Adriana</item> <item>Aline</item> <item>Amanda</item> <item>Ana</item>
+        <item>Bruna</item> <item>Bruno</item> <item>Carlos</item> <item>Claudio</item> <item>Camila</item>
+        <item>Claudia</item> <item>Carla</item> <item>Cristiane</item> <item>Davi</item> <item>Daiane</item>
+        <item>Daniela</item> <item>Daniele</item> <item>Diego</item> <item>Débora</item> <item>Daniel</item>
+        <item>Eduardo</item> <item>Eliane</item> <item>Édson</item> <item>Elaine</item> <item>Francisco</item>
+        <item>Francisca</item> <item>Felipe</item> <item>Fabiana</item>
+    </string-array>
+    <string-array name="sobrenomes">
+        <item>Alves</item> <item>Almeida</item> <item>Andrade</item>
+        <item>Costa</item> <item>Carvalho</item> <item>Cardoso</item>
+        <item>Gomes</item> <item>Gonçalves</item>
+        <item>Ferreira</item> <item>Fernandes</item> <item>Freitas</item>
+        <item>Lima</item> <item>Lopes</item>
+        <item>Oliveira</item> <item>Pereira</item>
+        <item>Rodrigues</item> <item>Ribeiro</item> <item>Rocha</item> <item>Ramos</item>
+        <item>Silva</item> <item>Santos</item> <item>Souza</item> <item>Soares</item> <item>Santana</item>
+    </string-array>
+    <string name="aicionar_aluno_controle">Adicionar aluno(a)</string>
+    <string name="delete_label">Clique em uma pessoa para deletá-la.</string>
+</resources>
